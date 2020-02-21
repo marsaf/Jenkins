@@ -28,6 +28,8 @@
         	<configuration> <!-- Compile java 7 compatible bytecode -->
           	<source>1.7</source>
           	<target>1.7</target>
+	        <fork>true</fork>
+        	<executable>/opt/bitnami/java/bin/javac</executable>
         	</configuration>
      	</plugin>
 	    
