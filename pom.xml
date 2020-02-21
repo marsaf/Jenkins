@@ -37,7 +37,7 @@
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-javadoc-plugin</artifactId>
 		<configuration>
-			<javadocExecutable>usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/bin/javadoc</javadocExecutable>
+			<javadocExecutable>/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/bin/javadoc</javadocExecutable>
 		</configuration>
 		<executions>
 			<execution>
